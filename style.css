@@ -1,0 +1,107 @@
+*{
+    color: white;
+    box-sizing: border-box;
+}
+
+body{
+    background: #34495e;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.title{
+    width: 700px;
+    margin: 0 auto;
+    font-family: 'Poppins',sans-serif;
+    font-size: 80px;
+    top: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.menu{
+    position: fixed;
+    height: 100%;
+    width: 65px;
+    background: rgba(0,0,0,0.2);
+    transition: width 1s;
+    overflow: hidden;
+    font-family: 'Poppins';
+    z-index: 99;
+    box-shadow: inset -8px 0px 16px -6px rgba(0,0,0,0.2);
+}
+
+.menu:hover{
+    width: 220px;
+}
+
+.menuitem span{
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    font-family: Poppins;
+    transition: color 1s;
+    color: rgba(255,255,255,0);
+}
+
+.menu:hover .menuitem span{
+    color: rgba(255,255,255,1);
+}
+
+.menuitem{
+    height: 20%;
+    line-height: 130px;
+    position: relative;
+    padding: 20px;
+    transition: border 0.5s, background 0.5s;
+}
+
+.menuitem:hover{
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.uno{
+    border-left: 0px solid #16a085;
+}
+
+.uno:hover{
+    border-left: 60px solid aqua;
+}
+
+.dos{
+    border-left: 0px solid #2980b9;
+}
+
+.dos:hover{
+    border-left: 60px solid deepskyblue;
+}
+
+.tres{
+    border-left: 0px solid #8e44ad;
+}
+
+.tres:hover{
+    border-left: 60px solid hotpink;
+}
+
+.cuatro{
+    border-left: 0px solid #e76e22;
+}
+
+.cuatro:hover{
+    border-left: 60px solid yellow;
+}
+
+.cinco{
+    border-left: 0px solid orange;
+}
+
+.cinco:hover{
+    border-left: 60px solid orange;
+}
+
+i{
+    font-size: 35px;
+}
